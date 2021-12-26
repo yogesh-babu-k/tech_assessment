@@ -15,7 +15,7 @@
 #	\
 #########################################\
 \
-CREATE TABLE IF NOT EXISTS OCCUPATIONS (\
+CREATE TABLE OCCUPATIONS (\
   Name VARCHAR(30),\
   Occupation VARCHAR(30)\
 );}
