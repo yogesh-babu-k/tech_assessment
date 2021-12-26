@@ -15,5 +15,12 @@
 #	\
 #########################################\
 \
-set @number = 0;\
-select repeat('* ', @number := @number + 1) from information_schema.tables limit 20;}
+WITH Recursive_CTE AS (\
+    SELECT 20 AS counter\
+    UNION ALL\
+    SELECT counter - 1\
+    FROM Recursive_CTE\
+    WHERE counter > 0\
+)\
+SELECT REPLICATE('* ', counter)\
+FROM Recursive_CTE}
