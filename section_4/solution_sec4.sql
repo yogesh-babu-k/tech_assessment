@@ -9,11 +9,11 @@
 -----------------------------------------
 
 WITH Recursive_CTE AS (
-    SELECT 20 AS counter
+    SELECT 1 AS counter
     UNION ALL
-    SELECT counter - 1
+    SELECT counter + 1
     FROM Recursive_CTE
-    WHERE counter > 0
+    WHERE counter < 20
 )
 SELECT REPLICATE('* ', counter)
 FROM Recursive_CTE;
