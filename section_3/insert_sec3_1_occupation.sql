@@ -8,7 +8,6 @@
 --	
 -----------------------------------------
 
-
 INSERT INTO OCCUPATIONS (NAME, OCCUPATION) VALUES ('Samantha', 'Doctor');
 INSERT INTO OCCUPATIONS (NAME, OCCUPATION) VALUES ('Julia', 'Actor');
 INSERT INTO OCCUPATIONS (NAME, OCCUPATION) VALUES ('Maria', 'Actor');
