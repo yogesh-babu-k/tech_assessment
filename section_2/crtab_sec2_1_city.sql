@@ -13,10 +13,9 @@
 #\
 #	Created Date: 25 Dec 2021\
 #	\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-\cf0 #########################################\
+#########################################\
 \
-CREATE TABLE IF NOT EXISTS CITY (\
+CREATE TABLE CITY (\
   ID INTEGER, \
   NAME VARCHAR(17), \
   COUNTRYCODE VARCHAR(3),\

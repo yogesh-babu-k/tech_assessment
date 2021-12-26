@@ -15,7 +15,7 @@
 #	\
 #########################################\
 \
-CREATE TABLE IF NOT EXISTS EMPLOYEE (\
+CREATE TABLE EMPLOYEE (\
   EMPLOYEE_ID INTEGER, \
   NAME VARCHAR(20),\
   MONTHS INTEGER,\
